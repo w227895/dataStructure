@@ -1,4 +1,4 @@
-package com.kebo;
+package com.kebo.array;
 
 /**
  * @description: 自定义数组
@@ -152,6 +152,12 @@ public class Array<E> {
         }
         data = newData;
     }
+
+    //获取最后一个值
+    public E getLast(){
+        return get(size - 1);
+    }
+
 
 }
 
